@@ -1,0 +1,30 @@
+
+th, td {
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #edc7b7;
+}
+tr:nth-child(odd) {
+	background-color:#bab2b5;
+}
+tr {
+	color:black;
+}
+th {
+   color: white;
+   background-color: #ac3b61;
+}
+body {
+	background-color: white;
+	
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+#uusiAsiakas, #takaisin {
+	cursor:pointer;
+}
+
+.poista {
+	cursor: pointer;
+}
